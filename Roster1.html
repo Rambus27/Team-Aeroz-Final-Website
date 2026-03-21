@@ -57,34 +57,45 @@
       >
       <select id="roster-role-filter" class="form-select" style="max-width:260px;" aria-label="Filter roster by role">
         <option value="all">All Roles</option>
-        <option value="leaders">Leaders</option>
+        <option value="owners">Owners</option>
+        <option value="co owner">Co Owner</option>
         <option value="staff">Staff</option>
-        <option value="content team">Content Team</option>
-        <option value="comp clip hitters">Comp Clip Hitters</option>
-        <option value="freestylers">Freestylers</option>
-        <option value="mlg no flippers">MLG / No Flippers</option>
+        <option value="players">Players</option>
         <option value="creatives">Creatives</option>
+        <option value="creatives gfx">Creatives - GFX</option>
+        <option value="creatives vfx">Creatives - VFX</option>
+        <option value="content">Content</option>
       </select>
     </div>
 
     <div class="section" style="padding-top: 1rem;">
       <p id="roster-empty" class="roster-empty" hidden>No members matched your search or selected role.</p>
 
-      <!-- ── LEADERS ── -->
+      <!-- ── OWNERS ── -->
       <div class="roster-section fade-in">
         <div class="role-header">
-          <h2>👑 Leaders</h2>
-          <span class="member-count">3 members</span>
+          <h2>Owners</h2>
+          <span class="member-count">2 members</span>
         </div>
         <div class="members-grid">
           <div class="member-card">
-            <span class="member-name">Ryo</span>
+            <span class="member-name">RYO</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Dengi</span>
+            <span class="member-name">NYX</span>
           </div>
+        </div>
+      </div>
+
+      <!-- ── CO OWNER ── -->
+      <div class="roster-section fade-in">
+        <div class="role-header">
+          <h2>Co Owner</h2>
+          <span class="member-count">1 member</span>
+        </div>
+        <div class="members-grid">
           <div class="member-card">
-            <span class="member-name">Noah</span>
+            <span class="member-name">NOAH</span>
           </div>
         </div>
       </div>
@@ -92,110 +103,73 @@
       <!-- ── STAFF ── -->
       <div class="roster-section fade-in">
         <div class="role-header">
-          <h2>⚙️ Staff</h2>
-          <span class="member-count">2 members</span>
+          <h2>Staff</h2>
+          <span class="member-count">3 members</span>
         </div>
         <div class="members-grid">
           <div class="member-card">
-            <span class="member-name">Gun</span>
+            <span class="member-name">OREOFR</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Oreo</span>
+            <span class="member-name">GUN</span>
+          </div>
+          <div class="member-card">
+            <span class="member-name">KYRO</span>
           </div>
         </div>
       </div>
 
-      <!-- ── CONTENT TEAM ── -->
+      <!-- ── PLAYERS ── -->
       <div class="roster-section fade-in">
         <div class="role-header">
-          <h2>🎬 Content Team</h2>
-          <span class="member-count">4 members</span>
+          <h2>Players</h2>
+          <span class="member-count">15 members</span>
         </div>
         <div class="members-grid">
           <div class="member-card">
-            <span class="member-name">Vexus</span>
-            <span class="member-tag tag-lead">Content Lead</span>
+            <span class="member-name">KENRRY</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Suzoker</span>
+            <span class="member-name">GUYIK</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Iz</span>
+            <span class="member-name">BUZZINSTACHE</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Blistripz</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- ── COMP CLIP HITTERS ── -->
-      <div class="roster-section fade-in">
-        <div class="role-header">
-          <h2>🏒 Comp Clip Hitters</h2>
-          <span class="member-count">7 members</span>
-        </div>
-        <div class="members-grid">
-          <div class="member-card">
-            <span class="member-name">Guyik</span>
-            <span class="member-tag tag-lead">Director</span>
+            <span class="member-name">WYATT</span>
           </div>
           <div class="member-card">
-            <span class="member-name">J0r0</span>
+            <span class="member-name">TSU</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Pxrtus</span>
+            <span class="member-name">ONYXZ</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Blob</span>
+            <span class="member-name">PXRTUS</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Tsunxmiii.</span>
+            <span class="member-name">RAIOS</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Wyatt</span>
+            <span class="member-name">ENNVY</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Kenrry</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- ── FREESTYLERS ── -->
-      <div class="roster-section fade-in">
-        <div class="role-header">
-          <h2>🎮 Freestylers</h2>
-          <span class="member-count">5 members</span>
-        </div>
-        <div class="members-grid">
-          <div class="member-card">
-            <span class="member-name">BuzzinStache</span>
-            <span class="member-tag tag-lead">Director</span>
+            <span class="member-name">DETECTIVE</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Onyxz</span>
+            <span class="member-name">FLARRE</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Jinx</span>
+            <span class="member-name">RAITH</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Raios</span>
+            <span class="member-name">FAITH</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Flarre</span>
+            <span class="member-name">VOID</span>
           </div>
-        </div>
-      </div>
-
-      <!-- ── MLG / NO FLIPPERS ── -->
-      <div class="roster-section fade-in">
-        <div class="role-header">
-          <h2>⚡ MLG / No Flippers</h2>
-          <span class="member-count">1 member</span>
-        </div>
-        <div class="members-grid">
           <div class="member-card">
-            <span class="member-name">Detective</span>
-            <span class="member-tag tag-lead">Director</span>
+            <span class="member-name">Vercylia</span>
           </div>
         </div>
       </div>
@@ -203,29 +177,50 @@
       <!-- ── CREATIVES ── -->
       <div class="roster-section fade-in">
         <div class="role-header">
-          <h2>🎨 Creatives</h2>
-          <span class="member-count">6 members</span>
+          <h2>Creatives - GFX</h2>
+          <span class="member-count">3 members</span>
         </div>
         <div class="members-grid">
           <div class="member-card">
-            <span class="member-name">Ch0n</span>
-            <span class="member-tag tag-lead">Director</span>
+            <span class="member-name">HEEEHANA</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Rise</span>
+            <span class="member-name">FK</span>
           </div>
+          <div class="member-card">
+            <span class="member-name">MISORYRY</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── CREATIVES VFX ── -->
+      <div class="roster-section fade-in">
+        <div class="role-header">
+          <h2>Creatives - VFX</h2>
+          <span class="member-count">2 members</span>
+        </div>
+        <div class="members-grid">
           <div class="member-card">
             <span class="member-name">Bagel</span>
-            <span class="member-tag tag-lead">Director</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Zyno</span>
+            <span class="member-name">RYO</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── CONTENT ── -->
+      <div class="roster-section fade-in">
+        <div class="role-header">
+          <h2>Content</h2>
+          <span class="member-count">2 members</span>
+        </div>
+        <div class="members-grid">
+          <div class="member-card">
+            <span class="member-name">BLISSTRIPZ</span>
           </div>
           <div class="member-card">
-            <span class="member-name">Bram</span>
-          </div>
-          <div class="member-card">
-            <span class="member-name">Ryoku</span>
+            <span class="member-name">DETROIT</span>
           </div>
         </div>
       </div>
