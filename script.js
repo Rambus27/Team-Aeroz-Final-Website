@@ -1092,12 +1092,9 @@ const normalizeRole = (value) => String(value || '')
   .trim();
 
 const cleanRosterNames = () => {
-  document.querySelectorAll('.member-card .member-flag').forEach((flag) => flag.remove());
-
   document.querySelectorAll('.member-name').forEach((nameEl) => {
     const original = nameEl.textContent || '';
     const cleaned = original
-      .replace(/^[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}\s]+/gu, '')
       .replace(/^[A-Za-z]{1,4}\s*[|\-_:~\/]+\s*/u, '')
       .trim();
     nameEl.textContent = cleaned || original.trim();

@@ -1052,7 +1052,13 @@ main {
 }
 
 .member-flag {
-  display: none;
+  width: 22px;
+  height: 16px;
+  object-fit: cover;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  flex-shrink: 0;
+  margin-left: auto;
 }
 
 .member-card {
