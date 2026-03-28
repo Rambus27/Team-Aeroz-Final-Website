@@ -19,7 +19,7 @@ const THEME_OPTIONS = [
 ];
 
 const isApplicationsApiConfigured = () => (
-  APPLICATIONS_API_BASE && !APPLICATIONS_API_BASE.includes('REPLACE_WITH_YOUR_DEPLOYMENT_ID')
+  APPLICATIONS_API_BASE && !APPLICATIONS_API_BASE.includes('AKfycbwVIhqJ7C3PMaQ2BsWvW8PaWgpQl-DZ5eHrp0ERcUx5WwsZ7rISeSGf7kfE02TtcReb')
 );
 
 const initBranding = () => {
